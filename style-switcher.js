@@ -41,8 +41,8 @@ const dayNight = document.querySelector(".day-night");
 const homeImg = document.querySelector(".home-img img");
 
 // Paths to images for light and dark modes
-const lightModeImg = "/Vivek-Light.png";
-const darkModeImg = "/Vivek-Dark.png";
+const lightModeImg = "Vivek-Light.png";
+const darkModeImg = "Vivek-Dark.png";
 
 dayNight.addEventListener("click", () => {
     dayNight.querySelector("i").classList.toggle("fa-sun");
